@@ -1,0 +1,17 @@
+.container-nav{
+  height: 80px;
+}
+nav{
+  background: rgba(0, 0, 0, .3) !important;
+}
+
+.brand-logo img{
+  width: 80%;
+}
+
+.item-menu{
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+}
