@@ -23,7 +23,7 @@ const QuienesSomos = props => {
             el anhelo de compartir, nos permitirán crear la empresa y el país que soñamos.
           </p>
           <p>
-            Ultra México nace a partir de Ultra Telecom, una empresa familiar fundada en los años 60's que nos dio las herramientas y 
+            Ultra México nace a partir de Ultra Telecom, una empresa familiar fundada en los años 60s que nos dio las herramientas y 
             las bases para ser el corporativo que somos hoy en día. "Si hemos llegado lejos, es porque estamos parados en hombros de 
             gigantes" Isaac Newton.
           </p>
