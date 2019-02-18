@@ -1,8 +1,40 @@
 footer.page-footer {
-  /* background: rgba(33, 33, 33, .5); */
-  background: rgba(117, 117, 117, .5);
+  background: rgba(33, 33, 33, .5);
+  /* background: rgba(117, 117, 117, .5); */
 }
 
 footer.page-footer .footer-copyright {
   background: rgba(0, 0, 0, .3);
+}
+
+.white-text {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+@media screen and (max-width:768px){
+  h5{
+    margin-top: 0;
+  }
+  .grey-text.text-lighten-3 {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  .grey-text.text-lighten-3 i{
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width:480px){
+  .white-text {
+    font-size: 18px;
+  }
+  .grey-text.text-lighten-4,
+  .grey-text.text-lighten-3{
+    font-size: 12px;
+  }
+  .footer-copyright .container{
+    font-size: 12px;
+  }
 }

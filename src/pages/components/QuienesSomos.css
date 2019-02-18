@@ -1,0 +1,192 @@
+.quienes-somos{
+  padding: 40px;
+}
+.wrap-quienes-somos,
+.wrap-vision, .wrap-mision{
+  margin: 10px 0 30px;
+}
+
+.cont-img{
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: initial;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.helper-img{
+  height: 125px;
+  width: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.helper-img:hover .img-primaria{
+  animation-duration: 1.5s;
+  animation-name: slidedown;  
+  animation-fill-mode: forwards;
+  transition-timing-function: linear;
+}
+
+.helper-img:hover .img-secundaria{
+  animation-duration: 1.8s;
+  animation-name: slideup;
+  animation-fill-mode: forwards; 
+  transition-timing-function: linear; 
+}
+
+.cont-img img{
+  width: 125px;
+  position: absolute;
+}
+
+.img-primaria{
+  transition: 1s;
+}
+
+.img-secundaria{
+  bottom: -300px;
+}
+
+
+h2{
+  text-align: center;
+  color:#00ab95;
+  margin-top: 0;
+}
+
+p{
+  color: #424242;
+}
+
+.titulo-valores{
+  margin: 30px 0 20px;
+}
+
+.wrap-valores{
+  text-align: center;
+  /* border: 1px solid red; */
+  height: 150px;
+  margin: 10px 0;
+}
+
+.icon-valor{
+  /* border: 1px solid red; */
+  width: 70px;
+  margin: 0 auto;
+}
+
+.icon-valor i{
+  color:#00ab95;
+  cursor: pointer;
+  transition: 1.5s;
+}
+
+.wrap-valores p{
+  color:#424242;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.icon-valor:hover i{
+  color:#424242;
+  transform: rotateY(360deg)
+}
+
+.icon-valor:hover ~ p{
+  color:#00ab95;
+}
+
+@media screen and (max-width:768px){
+  .quienes-somos {
+    padding: 20px;
+  }
+
+  .cont-img {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width:480px){
+  .quienes-somos {
+    padding: 20px 10px;
+  }
+
+  .wrap-quienes-somos,
+  .wrap-vision, .wrap-mision {
+    margin: 10px 0 20px;
+  }
+
+  .helper-img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .cont-img {
+    height: 125px;
+  }
+
+  .cont-img img{
+    width: 100px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p{
+    font-size: 12px;
+  }
+
+  .titulo-valores {
+    margin: 10px 0;
+  }
+
+  .icon-valor i {
+    font-size: 45px;
+  }
+
+  .wrap-valores {
+    height: 110px;
+  }
+
+  .wrap-valores p {
+    font-size: 12px;
+    margin: 5px;
+  }
+
+}
+
+
+
+
+
+
+@keyframes slidedown {
+  from {
+    transform: rotate(-360deg);
+    bottom: 0;
+  }
+
+  to {
+    transform: rotate(0);
+    bottom: -300px;
+  }
+}
+
+@keyframes slideup {
+  from {
+    transform: rotate(0);
+    bottom: -300px;
+  }
+
+  to {
+    transform: rotate(360deg);
+    bottom: 0;
+  }
+}

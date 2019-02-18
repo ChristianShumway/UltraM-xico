@@ -1,5 +1,5 @@
 .wrap-marcas{
-  padding: 40px 10px;
+  padding: 40px 30px;
 }
 
 .wrap-item-marca{
@@ -7,33 +7,49 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px 0 !important;
+  padding: 25px 0 !important;
+  flex-direction: column;
 }
 
 .item-marca{
   /* border: 1px solid blue; */
-  width: 230px;
-  height: 230px;
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(0, 171, 149, .3);
+  /* background: rgba(0, 171, 149, .3); */
+  background: rgba(245, 245, 245, .7);
+
 }
 
 .item-marca:hover{
-  background:rgba(125, 193, 66, .3);
+  /* background:rgba(125, 193, 66, .3); */
+  background: rgba(33, 33, 33, .2);
 }
 
 
 .item-marca a img{
   transition: 2s;
   /* border:1px solid yellow; */
-  width:180px;
+  width:160px;
 }
 
 .item-marca:hover a img{
   transform: scale(1.2);
+}
+
+.nombre-marca{
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  color: #212121;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.item-marca:hover ~  .nombre-marca{
+  color:#00ab95;
 }
 
 @media screen and (max-width:768px){
@@ -48,16 +64,24 @@
 }
 
 @media screen and (max-width:480px){
+  .wrap-marcas {
+    padding: 25px 0px;
+}
+
   .wrap-item-marca {
     padding: 5px 0 !important;
   }
   
   .item-marca {
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
   }
 
   .item-marca a img {
-    width: 100px;
+    width: 90px;
+  }
+
+  .nombre-marca{
+    font-size: 12px;
   }
 }

@@ -1,0 +1,38 @@
+.RedesSociales{
+  color: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Raleway', sans-serif;
+}
+
+.RedesSociales h3{
+  padding: 10px 100px;
+  background: rgba(0, 171, 149, 0.3);
+  border-radius: 5px;
+  box-shadow: 7px 7px 10px darkslategrey;
+  text-transform: uppercase;
+}
+
+.red-social{
+  margin: 10px 0;
+  padding: 0 30px !important;
+}
+
+.link-red-social{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.icono-red-social{
+  width: 40px;
+  margin-right: 10px;
+}
+
+.nombre-red-social{
+  color:white;
+  font-size: 28px;
+}
