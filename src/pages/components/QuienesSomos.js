@@ -69,39 +69,39 @@ const QuienesSomos = props => {
         </div>
 
         <div className="col s6 m4 wrap-valores">
-          <div className="icon-valor"><i class="material-icons medium">favorite</i></div>
+          <div className="icon-valor"><i className="material-icons medium">favorite</i></div>
           <p>Amor por México</p>
         </div>
         <div className="col s6 m4 wrap-valores">
-        <div className="icon-valor"><i class="material-icons medium">whatshot</i></div>
+        <div className="icon-valor"><i className="material-icons medium">whatshot</i></div>
           <p>Pasión por la gente buena de México</p>
         </div>
         <div className="col s6 m4 wrap-valores">
-          <div className="icon-valor"><i class="material-icons medium">sentiment_very_satisfied</i></div>
+          <div className="icon-valor"><i className="material-icons medium">sentiment_very_satisfied</i></div>
           <p>Capacidad de soñar</p>
         </div>
         <div className="col s6 m4 wrap-valores">
-          <div className="icon-valor"><i class="material-icons medium">pan_tool</i></div>
+          <div className="icon-valor"><i className="material-icons medium">pan_tool</i></div>
           <p>Creer como la base para hacer que nuestro trabajo diario contribuya</p>
         </div>
         <div className="col s6 m4 wrap-valores">
-          <div className="icon-valor"><i class="material-icons medium">supervisor_account</i></div>
+          <div className="icon-valor"><i className="material-icons medium">supervisor_account</i></div>
           <p>Colaboración, porque la suma de talentos multiplica el resultado</p>
         </div>
         <div className="col s6 m4 wrap-valores">
-          <div className="icon-valor"><i class="material-icons medium">record_voice_over</i></div>
+          <div className="icon-valor"><i className="material-icons medium">record_voice_over</i></div>
           <p>Liderazgo sencillo y honesto</p>
         </div>
         <div className="col s6 m4 wrap-valores">
-          <div className="icon-valor"><i class="material-icons medium">lightbulb_outline</i></div>
+          <div className="icon-valor"><i className="material-icons medium">lightbulb_outline</i></div>
           <p>Innovación que busque el bien común</p>
         </div>
         <div className="col s6 m4 wrap-valores">
-          <div className="icon-valor"><i class="material-icons medium">directions_run</i></div>
+          <div className="icon-valor"><i className="material-icons medium">directions_run</i></div>
           <p>Diversión, piedra angular de la vida</p>
         </div>
         <div className="col s6 m4 wrap-valores">
-          <div className="icon-valor"><i class="material-icons medium">swap_horiz</i></div>
+          <div className="icon-valor"><i className="material-icons medium">swap_horiz</i></div>
           <p>Equilibrio en nuestra vida y en todo lo que hagamos</p>
         </div>
 
